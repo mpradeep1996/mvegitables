@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-label{
+    width: 100%;
+    background-color: #82AE46;
+    color: #fff;
+}
+.main-label .lable-box{
+    height: 28px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-label p{
+    font-size: 12px;
+}
+
+.navbar .navbar-brand{
+    font-weight: bold;
+    color: #82AE46;
+    transition:0.2s ease-in-out ;
+}
+
+.navbar .navbar-brand:hover{
+    color: #000000;
+}
+
+
+/* navbar end here */
+
+/* From now we will statt landing page here */
+
+.landing-page .carousel-item{
+    height: 70%;
+    
+}
+.landing-page .carousel-item img{
+    height: 70vh;
+}
+
+.h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: black;
+}
+
+
+.landing-page .carousel-item p{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    
+}
+.carousel-caption {
+    top: 15.25rem !important;
+    color: whitesmoke;
+}
+.white{
+    color: white;
+}
+.light{
+    color:black;
+}
+
+@media screen and (max-width:768px) {
+    .carousel-caption {
+        top: 0!important;
+    }
+}
+
+.badge{
+    width: 100%;
+}
+
+.badge .fa-solid{
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 50%;
+}
+.fa-solid:hover{
+    background-color: #82AE46;
+    transition: ease-in-out 0.5s ;
+}
+.fa-truck{
+    background-color: #E4B2D6;
+}
+
+.fa-bowl-food{
+    background-color: #DCC698;
+}
+
+.fa-award{
+    background-color: #A2D1E1;
+}
+
+.fa-headset{
+    background-color: #DCD691;
+}
+h5{
+    color: #82AE46;
+    font-family: 'Lora', serif;
+}
+h1{
+    color: #82AE46;
+    font-family: 'Lora', serif;
+
+}
+
+.vegetable-sec .col-md-4 img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.vegetable-sec .veg-height{
+    height: 80%;
+    width: 100%;
+    padding: 20px 0;
+}
+.vegetable-sec .veg-box{
+    height: 350px;
+    width: 350px;
+}
+
+.shop .container .row .col-md-3{
+    height: 290px;
+    width: 250px;
+    margin: 60px 10px;
+    
+    
+}
+
+.shop .container .row .col-md-3 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.veg-class{
+    height: 600px;
+    width: 100%;
+    margin: 100px 0 0 0;
+    background-size: cover;
+    background-position: center;
+    background-image:  url(./Image/12345.jpeg);
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 40%;
+  }
+.icon-class{
+    padding: 0 0 70px 0;
+    width: 100%;
+    margin: 90px 0 0 0;
+}
+
+.container .row .col-md-2{
+    height: 80px;
+    width: 170px;
+}
+
+.container .row .col-md-2 img{
+      height: 100%;
+      width: 100%;    
+}
+
+
+.row {
+    --bs-gutter-x: 0rem !important;  
+}
